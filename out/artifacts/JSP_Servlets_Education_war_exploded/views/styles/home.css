@@ -1,0 +1,27 @@
+.info {
+    display: flex;
+    margin: 0 10% 0 10%;
+}
+
+.round {
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    max-width: 100px;
+}
+
+.text{
+    margin: 2% 0 0 2%;
+}
+
+hr{
+    margin: 2% 10% 2% 10%;
+}
+
+.user-info p{
+    margin: 0 10% 0.5% 10%;
+}
+
+
+
+

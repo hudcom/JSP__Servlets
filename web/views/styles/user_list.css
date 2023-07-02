@@ -1,0 +1,36 @@
+.table {
+    width: 70%;
+    margin-bottom: 20px;
+    border: 15px solid #F2F8F8;
+    border-top: 5px solid #F2F8F8;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #F2F8F8;
+    border: none;
+    border-bottom: 5px solid #F2F8F8;
+}
+.table td {
+    padding: 5px;
+    border: none;
+    border-bottom: 5px solid #F2F8F8;
+    text-align: center;
+}
+.user-list-h1{
+    margin-top: 2%;
+    color: #093636;
+}
+
+hr{
+    margin: 2% 10% 2% 10%;
+}
+
+.username_delete:invalid + #btn {
+    pointer-events: none;
+}
+
+.firstname .lastname .username .password .address .contact :invalid + #btn {
+    pointer-events: none;
+}

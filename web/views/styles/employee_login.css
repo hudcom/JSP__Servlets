@@ -1,0 +1,6 @@
+.username .password :invalid + #btn {
+    pointer-events: none;
+}
+#btn {
+    margin: 2%;
+}
